@@ -4,7 +4,7 @@ Transactions are created through the CLI
 '''
 import pickle, time, os
 from core.helpers.timestamp import unix_to_human, human_to_unix
-from core.types import Transaction, MarketData
+from core.types import Transaction
 
 class Storage:
     def __init__(self, file_tx, file_mk):

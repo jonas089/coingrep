@@ -8,4 +8,5 @@ GECKO_PORT = os.getenv("GECKO_PORT", default=8080)
 
 API_BASE = 'https://api.coingecko.com/api/v3'
 API_COINS = "{}/coins".format(API_BASE)
+API_EXCHANGES = "{}/exchanges".format(API_BASE)
 API_SIMPLE = "{}/simple".format(API_BASE)
